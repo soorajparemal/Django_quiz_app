@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body style="background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Pictures-Plain-HD-620x349.jpg');">
+<body style="background-image:url('https://s-media-cache-ak0.pinimg.com/originals/2f/d2/8a/2fd28a4c97689c7e05abe11bf5fba843.jpg');">
 <h1 align="center" style="font-size:80pt; color:indigo;">Avengers Recruitement </h1><br><hr>
 <br>
 
@@ -15,10 +15,10 @@
     {% for quizes in quiz %}
     <h1 style="color:black;font-size:30pt;">Question : {{quizes.question}} ?</h1><br>
        <div style="font-size:25pt; color:indigo;">
-        <input type="radio" value="{{quizes.one}}" name="{{quizes.id}}"> {{quizes.one}} <br>
-        <input type="radio" value="{{quizes.two}}" name="{{quizes.id}}">{{quizes.two}} <br>
-        <input type="radio" value="{{quizes.three}}" name="{{quizes.id}}">{{quizes.three}} <br>
-        <input type="radio" value="{{quizes.five}}" name="{{quizes.id}}">{{quizes.five}} <br>
+        <input type="radio" value="{{quizes.one}}" name="{{quizes.id}}" style="width:20px;height:30px"> {{quizes.one}} <br>
+        <input type="radio" value="{{quizes.two}}" name="{{quizes.id}}" style="width:20px;height:30px">{{quizes.two}} <br>
+        <input type="radio" value="{{quizes.three}}" name="{{quizes.id}}" style="width:20px;height:30px">{{quizes.three}} <br>
+        <input type="radio" value="{{quizes.five}}" name="{{quizes.id}}" style="width:20px;height:30px">{{quizes.five}} <br>
        </div>
            <hr>
     {% endfor %}
